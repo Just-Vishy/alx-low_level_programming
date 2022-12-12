@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
@@ -25,7 +26,7 @@ int main(void)
 	}
 	if (n < 0)
 	{
-		printf("is negative");
+		printf("is negativ8e");
 	}
 	return (0);
 }
