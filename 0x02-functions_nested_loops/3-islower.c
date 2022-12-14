@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * _islower - lowercase value
+ * _islower - Entry point
  *
  * @c: is the character
  *
@@ -13,7 +13,7 @@
 
 int _islower(int c)
 {
-	if (_islower(c))
+	if (islower(c))
 	{
 		return (1);
 	}
