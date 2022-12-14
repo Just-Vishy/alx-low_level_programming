@@ -5,13 +5,15 @@
  *
  * Return: Always 0 (Success)
  *
- * @r - its a value
+ * r - its a value
  *
  * @int: Integer
  */
 
-int _abs(int r)
+int _abs(int)
 {
+	int r;
+
 	if (r < 0)
 	{
 		return (r * -1);
