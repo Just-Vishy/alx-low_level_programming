@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * postive_or_negative - Entry point
+ * positive_or_negative - Entry point
+ *
+ * @i: its a value
  *
  * Return: Always 0.
  */
