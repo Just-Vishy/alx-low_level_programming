@@ -3,9 +3,9 @@
 /**
  * mul - multiplies two integers
  *
- * @a - value 1
+ * @a: value 1
  *
- * @b - value 2
+ * @b: value 2
  *
  * Return: a multipled by b
  */
