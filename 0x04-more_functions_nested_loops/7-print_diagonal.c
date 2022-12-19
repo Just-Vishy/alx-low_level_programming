@@ -7,17 +7,21 @@
 
 void print_diagonal(int n)
 {
-	int o;
-	int p;
+	int space;
+	int backslash_newline;
 
-	for (o = 0; o < n ; o++)
+	backslash_newline = 0;
+	while (backslash_newline < n)
 	{
-		for (p = 0 ; p < o ; p++)
+		space = 0;
+		while (space < backslash_newline)
 		{
 			_putchar(' ');
+			space++;
 		}
 		_putchar(92);
 		_putchar('\n');
+		backslash_newline++;
 	}
 	if (n <= 0)
 	{
