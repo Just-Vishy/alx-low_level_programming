@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * @str: Its a string
@@ -9,5 +10,5 @@
 
 void _puts(char *str)
 {
-	_puts(str);
+	puts(str);
 }
